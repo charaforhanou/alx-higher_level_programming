@@ -1,0 +1,6 @@
+#!/bin/bash
+last=$(ls -lt | head -n 2)
+git add . 
+git commit -m "$last"
+git push 
+echo "niiiiiiiiiiiiiiiiiiiiiiiice     :>"
